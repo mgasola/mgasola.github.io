@@ -1,0 +1,131 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Estilos do cabeçalho */
+header {
+    height: auto; 
+    padding-bottom: 20px; 
+    background-color: black;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 10px; /* Espaçamento entre o logo e o texto */
+}
+
+.texto {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'League Spartan', sans-serif;
+    color: whitesmoke; 
+}
+
+/* Estilos da sub-header */
+.sub-header {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+}
+
+/* Estilos do conteúdo principal */
+.main-content {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+section.sobre {
+    padding: 20px;
+}
+
+.container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; /* Reduzido para diminuir o espaçamento entre os itens */
+    padding: 10px; /* Reduzido para diminuir o espaçamento entre o primeiro item e o header */
+}
+
+.hiperlink {
+    padding: 12px; /* Reduzido para diminuir o espaçamento interno */
+    text-align: center;
+    border: palevioletred;
+}
+
+.hiperlink img {
+    width: 50%;
+    height: auto;
+}
+
+.gay-button {
+    display: inline-block;
+    padding: 10px 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gay-button:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos do rodapé */
+footer {
+    position: relative;
+    height: auto; 
+    padding: 20px 10px; /* Ajuste o padding para criar espaço no rodapé */
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+}
+
+.pdiferente {
+    font-weight: bold;
+    margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+}
+
+.contato2 {
+    position: relative; /* Mudança de 'absolute' para 'relative' */
+    margin: 20px 0; /* Espaçamento acima e abaixo do botão */
+}
+
+.contato2 img {
+    width: 85px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.contato2 img:hover {
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+}
+
+
